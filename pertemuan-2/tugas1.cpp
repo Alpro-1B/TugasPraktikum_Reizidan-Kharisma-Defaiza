@@ -11,11 +11,13 @@ int main () {
     cout << "\nThird Value = " << thirdValue;
 
     // menggunakan variable tambahan
-        cout << "\n\nFirst Value => 10 - Third Value = " << (firstValue-thirdValue) << endl;
-        cout << "Second Value => 8 + Third Value = " << (secondValue+thirdValue) << endl <<endl;
+        cout << "\n\nFirst Value => 10 - Third Value = " << (firstValue-thirdValue);
+        cout << "\nSecond Value => 8 + Third Value = " << (secondValue+thirdValue);
 
     // tanpa menggunakan variable tambahan
-        cout << "First Value => 10 - 2 = " << (firstValue-2) << endl;
-        cout << "Second Value => 8 + 2 = " << (secondValue+2) << endl;
+        cout << "\n\nFirst Value => 10 - 2 = " << (firstValue-2);
+        cout << "\nSecond Value => 8 + 2 = " << (secondValue+2);
+
+    return 0;
         
 }
