@@ -6,15 +6,16 @@ int main () {
     int secondValue = 8;
     int thirdValue = 2;
     
-    cout << "First Value = " << firstValue << endl; 
-    cout << "Second Value = " << secondValue << endl <<  endl;
+    cout << "First Value = " << firstValue; 
+    cout << "\nSecond Value = " << secondValue;
+    cout << "\nThird Value = " << thirdValue;
 
     // menggunakan variable tambahan
-        cout << "First Value - Third Value = " << (firstValue-thirdValue) << endl;
-        cout << "Second Value + third Value = " << (secondValue+thirdValue) << endl <<endl;
+        cout << "\n\nFirst Value => 10 - Third Value = " << (firstValue-thirdValue) << endl;
+        cout << "Second Value => 8 + third Value = " << (secondValue+thirdValue) << endl <<endl;
 
     // tanpa menggunakan variable tambahan
-        cout << "First Value - 2 = " << (firstValue-2) << endl;
-        cout << "Second Value + 2 = " << (secondValue+2) << endl;
+        cout << "First Value => 10 - 2 = " << (firstValue-2) << endl;
+        cout << "Second Value => 8 + 2 = " << (secondValue+2) << endl;
         
 }
