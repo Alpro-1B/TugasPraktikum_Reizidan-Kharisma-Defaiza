@@ -16,6 +16,7 @@ int main()
     return 0;
 }
 
+// deklarasi dan memberikan perintah ke dalam fungsi
 void Fibonacci(int batas)
 {
     int pertama = 0;        // suku pertama (yang juga menjadi wadah di perulangan di bawah)

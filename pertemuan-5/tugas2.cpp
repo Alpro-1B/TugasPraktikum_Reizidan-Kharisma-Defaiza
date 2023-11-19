@@ -22,7 +22,7 @@ int main()
     cout << "Masukan tinggi segitiga sama kaki yang diinginkan: ";
     cin >> tinggi;
 
-    segitiga(tinggi);
+    segitiga(tinggi); //memanggil fungsi 
 
     return 0;
 }
